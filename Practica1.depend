@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1581898233 source:c:\users\oscar\dropbox\edd_2020_1er_semestre\practica1\main.cpp
+	<iostream>
+	<curses.h>
+	"structures.h"
+	"mainMenu.h"
+
+1582039892 c:\users\oscar\dropbox\edd_2020_1er_semestre\practica1\structures.h
+	<iostream>
+	<string>
+	"TextStructure.h"
+	"LogStructure.h"
+	"RecentFileStructure.h"
+	"savingFile.h"
+	"graficar.h"
+	<curses.h>
+
+1582039765 c:\users\oscar\dropbox\edd_2020_1er_semestre\practica1\textstructure.h
+
+1581921253 c:\users\oscar\dropbox\edd_2020_1er_semestre\practica1\logstructure.h
+
+1582039417 c:\users\oscar\dropbox\edd_2020_1er_semestre\practica1\recentfilestructure.h
+
+1581898226 c:\users\oscar\dropbox\edd_2020_1er_semestre\practica1\mainmenu.h
+	<curses.h>
+	"structures.h"
+
+1216142005 c:\codeblocks\pdcurses34\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+
+1581906792 c:\users\oscar\dropbox\edd_2020_1er_semestre\practica1\savingfile.h
+	"TextStructure.h"
+	"LogStructure.h"
+	"RecentFileStructure.h"
+	<iostream>
+	<fstream>
+	<curses.h>
+
+1582040160 c:\users\oscar\dropbox\edd_2020_1er_semestre\practica1\graficar.h
+	<iostream>
+	<string.h>
+
