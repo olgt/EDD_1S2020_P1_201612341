@@ -50,9 +50,9 @@ void option1()
                 printMenuOption1();
                 break;
             case '6':
-                graphTheText();
-                getch();
-                printMenuOption1();
+                //graphTheText();
+                //getch();
+                //printMenuOption1();
                break;
             case '\n':
                 //y++;

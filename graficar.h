@@ -2,7 +2,7 @@
 #define GRAFICAR_H_INCLUDED
 
 #include <iostream>
-#include <string.h>
+#include <string>
 
 using namespace std;
 
@@ -32,9 +32,11 @@ void graphTheText()
         file << "node" << (count) << "->node" << (count-1) << "; \n";
         file << "node" << (count-1) << "->node" << (count) << "; \n";
 
-        textOfFile += "node" + to_string(count)+ "[label=\"" + temp->character + "\"]; \n";
-        textOfFile += "node" + to_string(count) + "->node" + to_string(count-1) + "; \n";
-        textOfFile += "node" + to_string(count-1) + "->node" + to_string(count) + "; \n";
+        string countString = to_string(count);
+        string countString2 = to_string(count - 1);
+        textOfFile += "node" + countString + "[label=\"" + temp->character + "\"]; \n";
+        textOfFile += "node" + countString + "->node" + countString2 + "; \n";
+        textOfFile += "node" + countString2 + "->node" + countString + "; \n";
         temp = temp->next;
         count++;
     }
