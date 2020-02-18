@@ -5,7 +5,7 @@
 	"structures.h"
 	"mainMenu.h"
 
-1582039892 c:\users\oscar\dropbox\edd_2020_1er_semestre\practica1\structures.h
+1582057177 c:\users\oscar\dropbox\edd_2020_1er_semestre\practica1\structures.h
 	<iostream>
 	<string>
 	"TextStructure.h"
@@ -39,7 +39,7 @@
 	<fstream>
 	<curses.h>
 
-1582056779 c:\users\oscar\dropbox\edd_2020_1er_semestre\practica1\graficar.h
+1582057321 c:\users\oscar\dropbox\edd_2020_1er_semestre\practica1\graficar.h
 	<iostream>
 	<string>
 

@@ -10,7 +10,7 @@ void toJPG(string textOfFile);
 
 void graphTheText()
 {
-    string textOfFile;
+/*    string textOfFile;
 
     ofstream file;
     file.open("texto.dot");
@@ -46,6 +46,7 @@ void graphTheText()
     file.close();
 
     toJPG(textOfFile);
+    */
 }
 
 void toJPG(string textOfFile){
